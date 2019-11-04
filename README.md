@@ -1,0 +1,2 @@
+# R5T.Herulia
+An ASP.NET Core package selector library.
