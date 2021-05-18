@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Herulia.Construction", "R5T.Herulia.Construction\R5T.Herulia.Construction.csproj", "{EE76A030-4F3C-4BD4-A0DD-805078CC7E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Herulia.Construction", "R5T.Herulia.Construction\R5T.Herulia.Construction.csproj", "{EE76A030-4F3C-4BD4-A0DD-805078CC7E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Herulia", "R5T.Herulia\R5T.Herulia.csproj", "{C8B151B5-CE0B-4B41-A58D-A49B96A537A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Herulia", "R5T.Herulia\R5T.Herulia.csproj", "{C8B151B5-CE0B-4B41-A58D-A49B96A537A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Herulia.Extensions", "R5T.Herulia.Extensions\R5T.Herulia.Extensions.csproj", "{81E003B8-7924-4F2D-8793-641270EC8544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EE76A030-4F3C-4BD4-A0DD-805078CC7E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{C8B151B5-CE0B-4B41-A58D-A49B96A537A3}.Release|x64.Build.0 = Release|Any CPU
 		{C8B151B5-CE0B-4B41-A58D-A49B96A537A3}.Release|x86.ActiveCfg = Release|Any CPU
 		{C8B151B5-CE0B-4B41-A58D-A49B96A537A3}.Release|x86.Build.0 = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|x64.Build.0 = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Debug|x86.Build.0 = Debug|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|x64.ActiveCfg = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|x64.Build.0 = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|x86.ActiveCfg = Release|Any CPU
+		{81E003B8-7924-4F2D-8793-641270EC8544}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12186667-8C72-4C09-8DB6-BB12863755C8}
 	EndGlobalSection
 EndGlobal

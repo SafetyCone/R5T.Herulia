@@ -1,0 +1,4 @@
+R5T.Herulia.Extensions - Extensions library for the ASP.NET Core package selector library.
+
+Goals
+
