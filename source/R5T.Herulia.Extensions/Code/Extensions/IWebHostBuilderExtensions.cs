@@ -10,7 +10,9 @@ namespace R5T.Herulia.Extensions
     {
         public static IWebHostBuilder UseDefaultContentRoot(this IWebHostBuilder webHostBuilder)
         {
-            webHostBuilder.UseContentRoot(Directory.GetCurrentDirectory());
+            var currentDirectory = Directory.GetCurrentDirectory();
+
+            webHostBuilder.UseContentRoot(currentDirectory);
             return webHostBuilder;
         }
     }
